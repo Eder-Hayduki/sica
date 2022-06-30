@@ -1,0 +1,41 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(17,42,96);
+    background: linear-gradient(90deg, rgba(17,42,96,1) 0%, rgba(79,176,187,1) 100%);
+}
+.tela_login{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border-radius: 30px;
+    color: white;
+}
+input{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+input[type=submit]{
+    background: rgb(133, 133, 133);
+    color: #ffffff;
+    width: 40%;
+    padding: 14px;
+    font-size: 13px;
+    -webkit-border-radius: 10px;
+    
+}
+input[type=submit]:hover{
+    background: #ffffff;
+    color:  rgb(120, 119, 119);
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+}
